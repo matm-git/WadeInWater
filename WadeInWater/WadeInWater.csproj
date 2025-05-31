@@ -4,6 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
   </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Mutagen.Bethesda" Version="0.29.3" />
     <PackageReference Include="Mutagen.Bethesda.Synthesis" Version="0.18.3" />
