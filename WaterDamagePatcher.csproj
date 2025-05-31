@@ -1,0 +1,31 @@
+﻿# WaterDamagePatcher.csproj
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mutagen.Bethesda.Skyrim" Version="0.41.0" />
+    <PackageReference Include="Mutagen.Bethesda.Synthesis" Version="0.25.1" />
+  </ItemGroup>
+
+</Project>
+
+# meta.json (für Synthesis Integration)
+{
+  "nickname": "Water Damage Patcher",
+  "visibility": "Visible",
+  "oneLineDescription": "Adds 'Causes Damage' flag to all water records",
+  "longDescription": "This patcher modifies all water records in your load order to include the 'Causes Damage' flag, making all water sources harmful to the player and NPCs.",
+  "preferredAutoVersioning": "Default",
+  "requiredMods": [],
+  "tags": [
+    "Water",
+    "Gameplay",
+    "Difficulty"
+  ]
+}
