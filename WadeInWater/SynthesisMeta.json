@@ -3,11 +3,5 @@
   "visibility": "Visible",
   "oneLineDescription": "Patches water records to work with Wade in Water",
   "longDescription": "This patcher modifies all water records in your load order to include the 'Causes Damage' flag, making all water sources harmful to the player and NPCs.",
-  "preferredAutoVersioning": "Default",
-  "requiredMods": [],
-  "tags": [
-    "Water",
-    "Gameplay",
-    "Difficulty"
-  ]
+  "preferredAutoVersioning": "Default"
 }
