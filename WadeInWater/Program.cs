@@ -5,7 +5,7 @@ using Mutagen.Bethesda.Synthesis;
 using Mutagen.Bethesda.Skyrim;
 using System.Linq;
 
-namespace WaterDamagePatcher
+namespace WadeInWater
 {
     public class Program
     {
