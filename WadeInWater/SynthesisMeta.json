@@ -1,5 +1,5 @@
 {
-  "nickname": "Wade in Water Patcher",
+  "nickname": "WadeInWater",
   "visibility": "Visible",
   "oneLineDescription": "Patches water records to work with Wade in Water",
   "longDescription": "This patcher modifies all water records in your load order to include the 'Causes Damage' flag, making all water sources harmful to the player and NPCs.",
