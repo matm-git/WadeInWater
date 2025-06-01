@@ -3,5 +3,6 @@
   "visibility": "Visible",
   "oneLineDescription": "Patches water records to work with Wade in Water VR",
   "longDescription": "This patcher modifies all water records in your load order to include the 'Causes Damage' flag which is required by the script to detect water and slow down the player. This patcher requires Wade in Water VR, it will not do anything on its own.",
-  "preferredAutoVersioning": "Default"
+  "preferredAutoVersioning": "Default",
+  "requiredMods": ["test.esp"]
 }
